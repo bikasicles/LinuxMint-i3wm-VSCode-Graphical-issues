@@ -10,7 +10,7 @@ I removed the file I created and updated the kernel, but continued receiving the
 > - Resizing the window: display would not shrink with the window
 > - [i3] Entering floating mode: resets the display to the correct state only to immediately return to a broken state
 
-After hours of more searching (checking dates and versions), I found the Intel drivers that were installed and removed them.  
+After hours of more searching (checking dates and versions), I found the Intel drivers that were installed and removed them (`xserver-xorg-video-intel`).  
 This fixed my issues.
 
 ---
